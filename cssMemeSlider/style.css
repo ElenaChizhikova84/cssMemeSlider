@@ -1,5 +1,7 @@
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;   
+    margin: 0; 
+    padding: 0;
 }
 
 html {
@@ -7,9 +9,8 @@ html {
 }
 
 body {    
-    margin: 0 auto; 
-    padding: 0;   
-    background-color: #0C0C0E;
+    margin: 0 auto;     
+    background-color: #aeaec9;
 }
 
 
@@ -24,7 +25,19 @@ body {
     background-color: rgb(186, 199, 161);
 }
 
+h1 {
+    font-family: 'Forum';
+    font-size: 3rem;
+    line-height: 5rem;
+    letter-spacing: 0.15rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff; 
+}
+
 .images {
+    margin: 0 auto;
     width: 95vw;
     height: 80vh;
     margin: 5vh auto;
